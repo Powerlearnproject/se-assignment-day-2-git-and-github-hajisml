@@ -13,7 +13,7 @@ Version control is the process of keeping track of changes made to source code. 
 Github is popular among developers because of additional features on top of using git as a vcs it also provides collaboration features such as pull requests, code reviews, and issues. It has a user friendly interface, Github Actions for automating workflows into their repositories allowing testing and deployment.
 
 Version Control helps in maintaining code integrity through:
-- Tracking changes:
+- Tracking changes:Recording every change made to the codebase allows you to see what was changed, when, and by whom, making it easier to understand and revert changes if something goes wrong.
 - Branching and Merging: Version control systems allow you to create branches for different features or bug fixes. This means you can work on new features or fixes independently without affecting the main codebase.
 - Conflict Resolution: When multiple people work on the same codebase, conflicts can arise if changes overlap. Version control systems help manage and resolve these conflicts, ensuring that all changes are integrated properly.
 - Code Review: Platforms like Github feature code reviews which enable code to reviewed by other developers  before changes are merged into the main codebase. This process helps catch errors, improve code quality, and ensure that only well-reviewed code is included in the final product.
