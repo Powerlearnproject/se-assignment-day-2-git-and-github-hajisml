@@ -20,6 +20,14 @@ Version Control helps in maintaining code integrity through:
 
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
 
+When setting up a repository on GitHub you need to consider whether the repository will be public or private depending on accessibility. A private repo requires that only you and select people you choose can access the repository to read, make modifications and commit to it. Once you have an account, you can create a repo by following these steps:
+- Click on the create new repo button on the toolbar
+- Assign a suitable name to your repository
+- Add an optional descrtiption
+- choose whether public or private
+- You can add a README.md file here to describe what your project is about
+- Then Click on the create repository button on the bottom to finalize creating your repository.
+
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
 
 ## Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects?
