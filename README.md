@@ -62,6 +62,17 @@ In summary, public repositories are great for open collaboration and visibility,
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 
+Once you have your repository up on GitHub you can clone it locally on your machine by first going to the repository on GitHub. Locate the code button on the homepage of your repository and copy the url. On your Terminal, usin git clone command, you can paste the url and clone the repository on your machine. You can now make necessary changes to the source code, add the changes to be tracked and commit locally to the repository. 
+
+Commits are snapshots of your project at a particular point in time. Each commit records changes made to files, along with a message describing those changes. They help track progress, manage different versions, and facilitate collaboration. 
+
+Once your changes are committed locally you can then push your changes to the remote repository on GitHub using the git push origin < name of branch >.
+
+Commits are useful because of the following:
+- Tracking Changes: Commits provide a history of changes, making it easy to see what was modified, added, or removed over time.
+- Version Management: Each commit represents a specific version of your project. You can revert to previous versions if needed.
+- Collaboration: Commits allow team members to see each other's changes and collaborate effectively by merging different versions of the code.
+
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
