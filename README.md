@@ -1,7 +1,22 @@
 # se-day-2-git-and-github
 ## Explain the fundamental concepts of version control and why GitHub is a popular tool for managing versions of code. How does version control help in maintaining project integrity?
 
+Version control is the process of keeping track of changes made to source code. Some key concepts include:
+- Repository: This is a storage space where all the versions of your files are kept. It can be local (on your computer) or remote (on a server).
 
+- Commit: This is like saving your work in version control. It captures the changes you've made to files and records them in the repository.
+
+- Branch: A branch is a separate line of development. It allows you to work on different features or fixes without affecting the main project.
+
+- Merge: This is the process of combining changes from different branches. For example, once you finish working on a feature in a branch, you can merge it into the main branch.
+
+Github is popular among developers because of additional features on top of using git as a vcs it also provides collaboration features such as pull requests, code reviews, and issues. It has a user friendly interface, Github Actions for automating workflows into their repositories allowing testing and deployment.
+
+Version Control helps in maintaining code integrity through:
+- Tracking changes:
+- Branching and Merging: Version control systems allow you to create branches for different features or bug fixes. This means you can work on new features or fixes independently without affecting the main codebase.
+- Conflict Resolution: When multiple people work on the same codebase, conflicts can arise if changes overlap. Version control systems help manage and resolve these conflicts, ensuring that all changes are integrated properly.
+- Code Review: Platforms like Github feature code reviews which enable code to reviewed by other developers  before changes are merged into the main codebase. This process helps catch errors, improve code quality, and ensure that only well-reviewed code is included in the final product.
 
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
 
