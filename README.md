@@ -34,7 +34,7 @@ The README file is crucial in a GitHub repository because it serves as the first
 
 A well-written README should include several key elements:
 
-- Project Overview**: Start with a brief description of what the project does. This helps users quickly grasp the purpose and scope of your project.
+- Project Overview: Start with a brief description of what the project does. This helps users quickly grasp the purpose and scope of your project.
 
 - Installation Instructions: Provide clear steps on how to install and set up the project. This ensures that users can easily get the project running on their own machines.
 
@@ -66,7 +66,7 @@ Once you have your repository up on GitHub you can clone it locally on your mach
 
 Commits are snapshots of your project at a particular point in time. Each commit records changes made to files, along with a message describing those changes. They help track progress, manage different versions, and facilitate collaboration. 
 
-Once your changes are committed locally you can then push your changes to the remote repository on GitHub using the git push origin < name of branch >.
+Once your changes are committed locally you can then push your changes to the remote repository on GitHub using the `git push origin <name-of-branch>`.
 
 Commits are useful because of the following:
 - Tracking Changes: Commits provide a history of changes, making it easy to see what was modified, added, or removed over time.
@@ -94,6 +94,27 @@ When your work on a branch is complete and tested, you can merge it back into th
 Branching is essential for collaboration because it allows multiple developers to work on different aspects of a project without interfering with each other’s work. It also helps maintain a stable main branch while development continues on feature or bug-fix branches. This organization makes it easier to review and test changes before they are integrated into the main project, leading to more efficient and error-free development.
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
+
+Pull requests enable you to propose changes from one branch (usually a feature or bug-fix branch) to another (often the main branch). They provide a platform for discussion, code review, and testing, ensuring that changes are thoroughly vetted before being integrated.
+
+- Creating a Pull Request
+
+1. Push Changes: First, push your branch with changes to GitHub using `git push origin <branch-name>`.
+2. Open a Pull Request: On GitHub, navigate to the repository and click the “Pull Requests” tab. Click “New Pull Request” and select your branch as the source and the main branch as the target.
+3. Add Details: Provide a clear title and description of the changes. This helps reviewers understand what has been done and why.
+
+- Code Review and Collaboration
+
+1. Review: Team members review the pull request, leaving comments, suggesting improvements, or approving the changes.
+2. Discuss: Use comments to discuss specific parts of the code or propose modifications.
+
+- Merging a Pull Request
+
+1. Address Feedback: Make any required changes based on feedback and update the pull request.
+2. Merge: Once approved, click the “Merge” button on GitHub to integrate the changes into the main branch.
+3. Close: After merging, you can optionally delete the feature branch to keep the repository tidy.
+
+Pull requests streamline the review process, ensure code quality, and enhance collaboration by making changes transparent and subject to team review before integration.
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
